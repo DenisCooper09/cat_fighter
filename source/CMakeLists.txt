@@ -2,6 +2,8 @@ set(SOURCES
         main.cpp
         tile_map.cpp
         tile_map.h
+        perlin_noise.c
+        perlin_noise.h
         )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
