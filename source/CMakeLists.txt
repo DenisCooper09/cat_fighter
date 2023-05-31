@@ -1,5 +1,7 @@
 set(SOURCES
         main.cpp
+        tile_map.cpp
+        tile_map.h
         )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
